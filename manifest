@@ -1,14 +1,14 @@
 #! /bin/bash
 
-export VERSION="42"
-export SYSTEM_DESC="ChimeraOS"
-export SYSTEM_NAME="chimeraos"
+export VERSION="01"
+export SYSTEM_DESC="ChimeraOSK"
+export SYSTEM_NAME="chimeraosk"
 export USERNAME="gamer"
 export SIZE="10000MB"
 export ARCHIVE_DATE=""
-export WEBSITE="https://chimeraos.org"
-export DOCUMENTATION_URL="https://chimeraos.org/about"
-export BUG_REPORT_URL="https://github.com/ChimeraOS/chimeraos/issues"
+export WEBSITE="https://"
+export DOCUMENTATION_URL="https://"
+export BUG_REPORT_URL="https://github.com/ChimeraOSKDE/chimeraos/issues"
 
 export KERNEL_PACKAGE="linux-lts"
 
@@ -39,14 +39,19 @@ export PACKAGES="\
 	fuse2 \
 	gamemode \
 	git \
-	gnome-console \
-	gnome-control-center \
-	gnome-disk-utility \
-	gnome-keyring \
-	gnome-session \
-	gnome-shell \
-	gnome-software \
-	gnome-text-editor \
+	plasma-meta \
+	plasma-wayland-session \
+	kde-accessibility-meta \
+	kde-graphics-meta \
+	kde-multimedia-meta \
+	kde-network-meta \
+	kde-office-meta \
+	kde-pim-meta \
+	kde-sdk-meta \
+	kde-system-meta \
+	kde-utilities-meta \
+	kdevelop-meta \
+	egl-wayland \
 	gst-plugin-pipewire \
 	haveged \
 	htop \
